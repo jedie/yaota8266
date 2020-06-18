@@ -62,7 +62,7 @@ subcommands:
     print_rsa_modulus   Print the RSA modulus line for copy&paste into
                         config.h
     sign                Sign firmware file for OTA
-    ota                 Do the OTA update for a device
+    ota                 Do the OTA update for a device (need a non-signed firmware-ota.bin because this command sign the firmware before send it)
     canned_ota          Do the 'canned' OTA update for a device
     verify              Check RSA key, config.h and compiled 'yaota8266.bin'
 ```
