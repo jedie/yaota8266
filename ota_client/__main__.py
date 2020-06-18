@@ -37,7 +37,7 @@ def sign(args):
 
 def ota(args):
     """Do the OTA update for a device"""
-    validate_ota(args.file)
+    #validate_ota(args.file)
     OtaClient(args.file).live_ota()
 
 
